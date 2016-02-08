@@ -1,0 +1,1 @@
+ps2pdf -dEPSCrop vortgrowth000001.eps /Users/gmurphy/Dropbox/TeX/notesforkh_tm/kh_vort_mhd_pic_compare.pdf

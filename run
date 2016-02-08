@@ -1,0 +1,14 @@
+#!/bin/bash
+make ;
+make write_params;
+./bin/write_parameters init.dat  200 20 2;
+  ./bin/a.out ; 
+if [ -f gnuplot ]
+then
+gnuplot plot
+else 
+echo
+echo "Gnuplot not available"
+fi
+
+

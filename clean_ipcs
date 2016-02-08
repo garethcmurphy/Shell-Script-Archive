@@ -1,0 +1,11 @@
+#!/bin/tcsh
+foreach i (leda1 leda2 leda3 leda4 leda5 leda6 leda7 leda8 leda9 leda10 leda11 leda12 leda13 leda14 leda15 leda16)
+#foreach i (leda1 leda2 leda3 leda4 leda5 leda6 leda7 leda8)
+#foreach i (
+#foreach i (leda9 leda10 leda11 leda12 )
+#foreach i (leda9 leda10 leda11 leda12 leda13 leda14 leda15 leda16)
+   echo "SSH'ing to $i"
+#   ssh -x $i "/usr/local/mpich-1.2.5-intelcomp/sbin/cleanipcs;"
+   ssh -x $i "/home/leda1/gmurphy/sbin/cleanipcs;"
+end
+

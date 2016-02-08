@@ -1,0 +1,4 @@
+ ./configure --prefix=${PLUTO_DIR}/Lib/HDF5-serial
+ make -j 11 && make install
+ CC=mpicc ./configure --prefix=${PLUTO_DIR}/Lib/HDF5-parallel  --enable-parallel 
+ make -j 11 && make install

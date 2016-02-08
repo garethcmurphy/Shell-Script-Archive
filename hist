@@ -1,0 +1,514 @@
+    1  gqview 
+    2  ./get.sh 
+    3  gqview 
+    4  ./get.sh 
+    5  ./get.sh 
+    6  ~/sbin/do_movies.sh 
+    7  totem xg.mov 
+    8  rm -rf tmp/*
+    9  ls
+   10  rm -rf ilslice0*
+   11  ./get.sh 
+   12  gqview 
+   13  ./get.sh 
+   14  gqview 
+   15  gqview 
+   16  gqview 
+   17  cd 
+   18  cd incoming/
+   19  ls
+   20  ls *sh
+   21  ls *tmp
+   22  ls *tmp*
+   23  ls
+   24  ls
+   25  vi convert_jpeg_mov.sh 
+   26  ;s
+   27  ls
+   28  pushd /home/projects/astrophysics/gmurphy/
+   29  find . -name "tmp" -print
+   30  cd 0_9cm250n
+   31  cd 0_9cm250n200qp/
+   32  cd 0_9cm250n
+   33  find . -name "tmp" -print
+   34  cd
+   35  cd sbin/
+   36  ls -lrt
+   37  vi do_movies.sh 
+   38  sshs
+   39  sshs
+   40  cd Documents/Simulations/weibel/
+   41  ./get.sh 
+   42  ~/sbin/do_movies.sh 
+   43  totem xg.mov 
+   44  ssha
+   45  goichec 
+   46  cd Documents/Simulations/weibel/bgp_fil/
+   47  ls
+   48  mkdir tmp
+   49  rm 0rf jperpkt00000.jpeg  kt00000.jpeg 
+   50  ls
+   51  ~/sbin/do_movies.sh 
+   52  ltm
+   53  scp xg.mov vorcha:
+   54  pushd /home/projects/astrophysics/gmurphy/
+   55  cd
+   56  cd Documents/Simulations/
+   57  ls
+   58  cd weibel/
+   59  cp ~/getbgp.sh .
+   60  vi getbgp.sh 
+   61  mkdir bgp_fil
+   62  ./getbgp.sh 
+   63  cd bgp_fil/
+   64  ls
+   65  ssh hyakutake
+   66  pwd
+   67  scp xg.mov vorcha:
+   68  links
+   69  links www.google.ie
+   70  links www.dias.ie
+   71  sshb
+   72  sshv
+   73  ssh vorcha
+   74  cd home/flash/
+   75  ls
+   76  ls
+   77  cd
+   78  ls codes
+   79  ls
+   80  ls home/FLASH3.0
+   81  ls home/FLASH3.0/source/
+   82  ls home/FLASH3.0/
+   83  ls sites
+   84  ls home/FLASH3.0/
+   85  cd home/FLASH3.0/
+   86  ls
+   87  ls 
+   88  ls source/
+   89  ls source/Simulation/
+   90  ls source/Simulation/SimulationMain/
+   91  ls source/Simulation/SimulationMain/TwoJet/
+   92  cd source/Simulation/SimulationMain/
+   93  scp -r TwoJet st:
+   94  sshb
+   95  ssha
+   96  cd FLASH3.3.tar 
+   97  cd codes
+   98  ls
+   99  tar xvf ~/FLASH3.3.tar 
+  100  cd FLASH3.3/
+  101  ls
+  102  ls source/
+  103  ls
+  104  ls docs/
+  105  ls docs/designDocs/
+  106  ls docs/
+  107  ls
+  108  vi RELEASE-NOTES 
+  109  ls docs/
+  110  ls docs/designDocs/
+  111  ls source/
+  112  ls tools/
+  113  ls
+  114  sshs
+  115  sshs
+  116  cd Documents/Simulations/weibel/
+  117  ls
+  118  mv xg.mov weibel.mov 
+  119  cp weibel.mov ~/public_html/talks
+  120  ls -lh
+  121  sshb
+  122  sshb
+  123  ssha
+  124  sshs
+  125  sshs
+  126  mpd &
+  127  pwd
+  128  which mpirun
+  129  cd ../
+  130  cd 
+  131  cd codes/FLASH3.3/
+  132  ./object/flash3 
+  133  which mpicc
+  134  which h5pfc
+  135  ls ~/lib/
+  136  ls ~/lib/HDF5_serial
+  137  ./object/flash3 
+  138  export LD_LIBRARY_PATH=/home/gmurphy/lib/HDF5_serial/lib
+  139  ./object/flash3 
+  140  cp ~/Desktop/fix_mpi_calls.diff .
+  141  patch -p0 < fix_mpi_calls.diff 
+  142  ./object/flash3 
+  143  make
+  144  make -j 3 -C object/
+  145  ls
+  146  ./object/flash3 
+  147  history | grep setup
+  148  ./setup Sedov -auto
+  149  make -j 3 -C object/
+  150  ./object/flash3 
+  151  patch -p0 < fix_mpi_calls.diff 
+  152  patch -p0 < fix_mpi_calls.diff 
+  153  ./setup Sedov -auto
+  154  1ma
+  155  make -j 3 -C object/
+  156  ./object/flash3
+  157  make -j 3 -C object
+  158  ./object/flash3
+  159  cd codes
+  160  ls
+  161  cd FLASH3.3/
+  162  ls
+  163  ./setup Sedov -auto
+  164  make -j 3
+  165  make -j 3 -c object
+  166  make -j 3 -C object
+  167  mkdir sites/`hostname`
+  168  cp sites/Prototypes/Linux/Makefile.h sites/hyakutake/
+  169  vi sites/hyakutake/Makefile.h 
+  170  history 
+  171  ./setup Sedov -auto
+  172  make -j 3 -C object
+  173  vi sites/hyakutake/Makefile.h 
+  174  make -j 3 -C object
+  175  make -j 3 -C object
+  176  make -j 3 -C object
+  177  ./object/flash3 
+  178  export LD_LIBRARY=/home/gmurphy/lib/HDF5_serial/lib
+  179  ./object/flash3 
+  180  ldd ./object/flash3 
+  181  ls /home/gmurphy/lib/HDF5_serial/lib/
+  182  export LD_LIBRARY_PATH=/home/gmurphy/lib/HDF5_serial/lib
+  183  ldd ./object/flash3 
+  184  ./object/flash3 
+  185  cp source/Simulation/SimulationMain/Sedov/flash.par .
+  186  ./object/flash3 
+  187  ./object/flash3 
+  188  ./object/flash3 
+  189  mpirun -np 2 ./object/flash3 
+  190  mpirun -np 1 ./object/flash3 
+  191  mpirun -np 2 ./object/flash3 
+  192  ltm
+  193  vi sedov.log 
+  194  mpirun -np 2 ./object/flash3 
+  195  ltm
+  196  vi sedov.log 
+  197  cd ../
+  198  ls 
+  199  cd 
+  200  cd home/flash/
+  201  ls
+  202  ls
+  203  cd ../codes
+  204  ls
+  205  cd ../FLASH3.0
+  206  ls
+  207  make -j 3 -C object
+  208  ./object/flash3
+  209  ls sites/
+  210  ls sites/Prototypes/Linux/Makefile.h
+  211  vi sites/Prototypes/Linux/Makefile.h
+  212  ltm
+  213  vi sedov.log 
+  214  cp -r sites/gmurphy-laptop sites/`hostname`
+  215  vi sites/hyakutake/Makefile.h 
+  216  ./setup Sedov -auto
+  217  make -j 3 -C object/
+  218  export LD_LIBRARY_PATH=/home/gmurphy/lib/HDF5_serial/lib
+  219  export LD_LIBRARY_PATH=/home/gmurphy/lib/HDF5_serial/lib
+  220  ./object/flash3
+  221  mpirun -np 3 ./object/flash3
+  222  mpirun -np 4 ./object/flash3
+  223  ./setup Sedov -auto +noio
+  224  vi flash.par
+  225  ls source/Simulation/SimulationMain/
+  226  ls source/Simulation/SimulationMain/Blast2/
+  227  ls source/Simulation/SimulationMain/Blast2/flash.par 
+  228  vi source/Simulation/SimulationMain/Blast2/flash.par
+  229  ls source/Simulation/SimulationMain/Blast2/
+  230  ls source/Simulation/SimulationMain
+  231  ls source/Simulation/SimulationMain/MHDBlast/
+  232  ls source/Simulation/SimulationMain/MHDBlast/flash.par 
+  233  vi source/Simulation/SimulationMain/MHDBlast/flash.par
+  234  ./setup Sedov -auto +noio
+  235  1ma
+  236  make -j 3 -C object/
+  237  ./object/flash3 
+  238  cp source/Simulation/SimulationMain/Sedov/flash.par .
+  239  ./object/flash3 
+  240  ./object/flash3 
+  241  ./object/flash3 
+  242  mpirun -np 4 ./object/flash3 
+  243  mpiexec -np 4 ./object/flash3 
+  244  mpiexec -n 4  ./object/flash3 
+  245  mpiexec -n 2  ./object/flash3 
+  246  mpiexec -n 1  ./object/flash3 
+  247  mpiexec   ./object/flash3 
+  248  cp ~/Desktop/fix_mpi_calls.diff 
+  249  cp ~/Desktop/fix_mpi_calls.diff  .
+  250  patch -p0 < fix_mpi_calls.diff 
+  251  export LD_LIBRARY_PATH=/home/gmurphy/lib/HDF5_serial/lib
+  252  history | grep setup
+  253  sshs
+  254  sshb
+  255  ssha
+  256  sshs
+  257  sshs
+  258  uptime
+  259  sshs
+  260  pushd /home/projects/astrophysics/gmurphy/
+  261  sshs
+  262  cd codes/psc
+  263  ls
+  264  mkdir refresh_shock
+  265  mkdir shocksine
+  266  mv shocksine shockboundary
+  267  cd refresh_shock/
+  268  ls
+  269  ls
+  270  ls
+  271  ls
+  272  cp ../vx100vth1b1/BACKUP .
+  273  tar xvf BACKUP .
+  274  ls
+  275  mkdir -p branches/nodielec
+  276  ls
+  277  make -j 3
+  278  ls
+  279  ./VLI.x 
+  280  ./VLA.x 
+  281  cd
+  282  cd psc
+  283  cd codes/psc
+  284  ls
+  285  cd shockboundary/
+  286  ls
+  287  cp ../refresh_shock/BACKUP .
+  288  mkdir -p branches/nodielec
+  289  ls
+  290  tar xzvf BACKUP 
+  291  tar xvf BACKUP 
+  292  ls
+  293  make -j 3
+  294  ls
+  295  vi INIT_idistr.f 
+  296  cd ../
+  297  find . -name INIT_idistr.f -exec grep add {} \; -print
+  298  find . -name INIT_idistr.f -exec grep add {} \; -print | grep 
+  299  find . -name INIT_idistr.f -exec grep add {} \; -print | grep sub
+  300  ls
+  301  vi vx100vth1b1/INIT_idistr.f 
+  302  vi snd2dtmp/INIT_idistr.f 
+  303  cd shockboundary/
+  304  cp ../snd2dtmp/INIT_idistr.f .
+  305  vi INIT_idistr.f 
+  306  make -j 3
+  307  vi INIT_idistr.f 
+  308  vi INIT_idistr.f 
+  309  make -j 3
+  310  ./VLI.x 
+  311  ./VLA.x 
+  312  cd ../filaments2d/
+  313  vi mpifield.c 
+  314  vi OUT_field.f 
+  315  okular Desktop/ProofMS.pdf 
+  316  sshs
+  317  cd home/talks
+  318  ooimpress Dunsink_OpenNights.ppt 
+  319  cd home/files/
+  320  ooimpress Dunsink_slide44.ppt 
+  321  cd th
+  322  cd
+  323  cd th
+  324  cd home/th
+  325  ooimpress outflow_class.ppt 
+  326  ooimpress home/files/Seminars\ Frank\ Shu\ Star\ and\ Planet\ Formation.ppt 
+  327  vi INIT_param.f 
+  328  vi INIT_idistr.f 
+  329  vi done.pro 
+  330  vi readgenf.pro 
+  331  vi INIT_param.f 
+  332  ls
+  333  ls
+  334  more all_ppt 
+  335  vi all_ppt
+  336  vi all_ppt
+  337  cd ../
+  338  ls
+  339  ls 
+  340  cd backupOpenMP/
+  341  vi INIT_param.f 
+  342  ls
+  343  cd ,,.
+  344  cd ../
+  345  ls
+  346  cd  filaments2d/
+  347  vi INIT_param.f 
+  348  touch ~/public_html/push_site_update 
+  349  ls ~/public_html/talks/*mov
+  350  touch ~/public_html/push_site_update 
+  351  touch ~/public_html/push_site_update 
+  352  touch ~/public_html/push_site_update 
+  353  cd
+  354  cd TeX/career/
+  355  ls
+  356  ls
+  357  ls pubs/
+  358  ls
+  359  mkdir MyPapers
+  360  cd MyPapers/
+  361  ls
+  362  ls ~/Documents/literature/mypapers/
+  363  ls
+  364  cp ~/public_html/publications/*pdf .
+  365  ls
+  366  ls
+  367  okular arxiv1003.1275.pdf 
+  368  acroread arxiv1003.1275.pdf aa12633-09-1.pdf  aa15294-10.pdf 
+  369  acroread 2010ITPS.pdf 
+  370  ls
+  371  mv 2010ITPS.pdf Multidimensional simulations of magnetic field
+  372  amplification and electron acceleration to
+  373  near-energy equipartition with ions by a mildly
+  374  vi 2010ITPS.pdf "Multidimensional simulations of magnetic field amplification.pdf"
+  375  mv 2010ITPS.pdf "Multidimensional\ simulations\ of\ magnetic field\ amplification.pdf"
+  376  ls
+  377  mv  Multidimensional\\\ simulations\\\ of\\\ magnetic\ field\\\ amplification.pdf  "Multidimensional simulations of magnetic field amplification.pdf"
+  378  ls
+  379  mv aa15294-10.pdf  "Magnetic field amplification and electron acceleration.pdf"
+  380  ls
+  381  acroread aa12633-09-1.pdf 
+  382  mv  aa12633-09-1.pdf "Large scale magnetic fields in viscous resistive accretion disks.pdf"
+  383  ls
+  384  ltm
+  385  acroread Murphy*
+  386  mv MurphyLeryOSullivanetal.pdf  "Interacting jets from binary protostars.pdf"
+  387  ls
+  388  ls
+  389  ls
+  390  mv DeColleGraciaMurphy.pdf 2008\ DeColleGraciaMurphy.pdf 
+  391  ls
+  392  ls
+  393  ls
+  394  chmod -x 2010_EPS\ _Dublin.pdf 
+  395  ls
+  396  mv 2010_EPS\ _Dublin.pdf 2010\ EPS\ Dublin.pdf 
+  397  ls
+  398  ls
+  399  acroread 2010\ Growth\ of\ a\ magnetic\ vortex.pdf 
+  400  ls
+  401  ls -1
+  402  cd ~/TeX/papers/2010_filaments2d/
+  403  ls
+  404  which matlab
+  405  matlab -nodesktop -nosplash
+  406  ssh wegener
+  407  vi kt.m 
+  408  ls *.m
+  409  vi plotkt.m 
+  410  vi dokt.m 
+  411  ls *.m
+  412  vi jperp_kt.m 
+  413  vi dokt.m 
+  414  sshs
+  415  sshb
+  416  sshs
+  417  sshs
+  418  cd Desktop/
+  419  ls
+  420  acroread 2010_MKSP_Dublin.pdf 
+  421  sshs
+  422  ssh hyaktuake
+  423  ssh hyakatake
+  424  cd TeX/
+  425  cd
+  426  cd public_html/
+  427  cd publications
+  428  ls
+  429  okular arxiv1003.1275.pdf 
+  430  cp ~/Desktop/PHPAEN1711110701_1.pdf arxiv1003.1275.pdf 
+  431  acroread arxiv1003.1275.pdf 
+  432  acroread arxiv1003.1275.pdf 
+  433  cd ../
+  434  ls
+  435  ls 
+  436  cp index.html index.html.old
+  437  cd home/th
+  438  ls
+  439  du -hc
+  440  ls -lSrh
+  441  ls -lSrh
+  442  du -hc
+  443  sftp fileshare01
+  444  more ~/.ssh/known_hosts 
+  445  more ~/.ssh/config
+  446  sftp e-inis
+  447  sftp e-inis
+  448  sftp gmurphy@e-inis
+  449  ssh e-inis
+  450  ssh -vvv e-inis
+  451  r8jUgasE
+  452  ssh e-inis
+  453  sftp e-inis
+  454  vi ~/.ssh/config 
+  455  pushd /home/projects/astrophysics/gmurphy/
+  456  ls /home/projects/astrophysics 
+  457  ls
+  458  pushd /home/projects/astrophysics/gmurphy/
+  459  cd ~/TeX/papers/2010_filaments2d/
+  460  ls
+  461  vi dokt.m 
+  462  idl
+  463  matlab -nosplash -nodesktop
+  464  sshs
+  465  sshs
+  466  lpq
+  467  sshh
+  468  pushd /home/projects/astrophysics/gmurphy/
+  469  ls
+  470  vi dsast003c.sftp 
+  471  more x.sftp 
+  472  sftp fileshare01
+  473  ssha
+  474  ssha
+  475  idfl
+  476  idl
+  477  ltm
+  478  ltm
+  479  mysql
+  480  history | grep mysq
+  481  mysql -u gmurphy
+  482  ls
+  483  ls *sql
+  484  vi m.sql 
+  485  vi localhost-2.sql 
+  486  vi l.sql 
+  487  ls
+  488  cd Documents/
+  489  ls
+  490  ls *sql
+  491  cd
+  492  ls .config/
+  493  ls .mysql_history 
+  494  more .mysql_history 
+  495  mysq
+  496  mysql
+  497  ssh aurora
+  498  alias
+  499  ls .mysql_history 
+  500  ssh aurora
+  501  sshs
+  502  history | grep mysq
+  503  mysql -u gmurphy -p
+  504  more ~/public_html/sort2.php 
+  505  mysql -u gmurphy -p
+  506  mysql -u gmurphy -p II61TGvu8
+  507  man mysql
+  508  mysql -u gmurphy -p II61TGvu8
+  509  mysql -h sql.ap.dias.ie -u gmurphy -p II61TGvu8
+  510  man mysql
+  511  mysql -h sql.ap.dias.ie -u gmurphy -p II61TGvu8 PICSimulations
+  512  mysql -h sql.ap.dias.ie -u gmurphy -p  PICSimulations
+  513  history 
+  514  history  > ~/sbin/hist

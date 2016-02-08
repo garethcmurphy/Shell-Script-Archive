@@ -1,0 +1,2 @@
+make clean ; make ; cd ../athena-graphics-3d/ ; make clean ; make
+make clean ; make ; cd ../athena-graphics-3d/ ; make clean ; make; cd application ; mpirun athena
